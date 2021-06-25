@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 80vh;
+    flex-direction: column;
+    margin: 0;
+    background-image: linear-gradient(to bottom right, #A1FFCE, #FAFFD1);
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+}
+
+#main > middle {
+    flex: 1;
+}
+
+#main > left, 
+  #main > right {
+    flex: 0 0 20vw;
+    background: linear-gradient(to right, #43C6AC, #F8FFAE) !important;
+}
+
+#main > left {
+    order: -1;
+}
+
+header, footer {
+    background: linear-gradient(to bottom, #134E5E, #71B280) !important;
+    height: 10vh;
+    text-transform: uppercase;
+}
+
+header, footer, middle, left, right {
+    padding: 1em;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+}
+
+middle {
+    text-align: center;
+}
+
+left {
+    text-align: center;
+}
+
+right {
+    text-align: center;
+}
+
+button {
+    background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+    border-radius: 40px;
+    color: black;
+    display: block;
+    height: 50px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+button {
+    display: inline-block;
+    margin: 2px;
+}
+
+button:hover {
+    border: 1px solid #000000;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: Center;
+    color: #fff;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+    }
+  }
+
+.icon-bar {
+    position: fixed;
+    top: 76%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(50%);
+    right:-20px;
+    width:350px;
+    z-index: 1100;
+  }
+  
+  .icon-bar a {
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .telegram {
+    background: #2c9be6;
+    color: rgb(255, 255, 255);
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .instagram {
+    background: #bb0000;
+    color: white;
+  }
+
+  
