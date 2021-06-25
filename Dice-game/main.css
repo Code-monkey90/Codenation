@@ -1,0 +1,56 @@
+    .container {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+  
+    .dice {
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
+    }
+  
+    body {
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat; background-size: cover;
+        background-image: url(diceGame.jpg);
+    }
+  
+    h1 {
+        margin: 30px;
+        font-family: "Lobster", cursive;
+        text-shadow: 5px 0 #232931;
+        font-size: 4.5rem;
+        color: #4fc22c;
+        text-align: center;
+    }
+  
+    p {
+        font-size: 2rem;
+        color: #6ed4b2;
+        font-family: "Indie Flower", cursive;
+    }
+  
+    img {
+        width: 100%;
+    }
+  
+    .bottom {
+        padding-top: 30px;
+    }
+  
+    .butn {
+        background: #4ecca3;
+        font-family: "Indie Flower", cursive;
+        border-radius: 7px;
+        color: #ffff;
+        font-size: 30px;
+        padding: 16px 25px 16px 25px;
+        text-decoration: none;
+    }
+  
+    .butn:hover {
+        background: #19293d;
+        text-decoration: none;
+    }
