@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
+    background-image: url(drumKit.jpg);
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 250px;
+}
+    
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(228, 226, 214, 0.8);
+    opacity: 0.8;
+
+    width: 40%;
+    height: 40%;
+   
+    margin: 10px; 
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    text-transform: uppercase;        
+}
+
+button:hover {
+    color: #001F3F;
+    background-color: #fff;
+}
+
+
+    .container {
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }    
+
+    button {
+        width: 35%;
+        height: 30%;
+        margin: 5px;
+    }  
+
+
+    .container {
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    button {
+        width: 35%;
+        height: 30%;
+        margin: 5px;
+    }    
+
+
